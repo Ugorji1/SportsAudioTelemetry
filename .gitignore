@@ -1,0 +1,29 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Sensitive configuration & local logs
+config.json
+telemetry.log
+.env
+
+# Models & binaries (large files)
+models/
+ffmpeg.exe
+vc_redist.x64.exe
+
+# Temporary scratch & debug files
+scratch_*.py
+mixlr_page.html
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

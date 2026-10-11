@@ -1,0 +1,37 @@
+{
+  "telegram": {
+    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "chat_id": "YOUR_TELEGRAM_CHAT_ID",
+    "enabled": true
+  },
+  "model_path": "models/vosk-model-small-en-us-0.15",
+  "audio_settings": {
+    "sample_rate": 16000,
+    "chunk_size": 4000,
+    "debounce_seconds": 6.0
+  },
+  "global_keywords": [
+    "penalty",
+    "penalty given",
+    "points to the spot",
+    "goal",
+    "scores",
+    "scored",
+    "in the net",
+    "buried it",
+    "what a strike",
+    "red card",
+    "sent off",
+    "yellow card",
+    "whistle"
+  ],
+  "matches": [
+    {
+      "id": "channel_1",
+      "name": "Live Matchday Commentary",
+      "enabled": true,
+      "stream_url": "https://sports-live95.mixlr.com/",
+      "custom_keywords": ["penalty", "goal"]
+    }
+  ]
+}
